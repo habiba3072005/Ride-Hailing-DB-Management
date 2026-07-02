@@ -1,11 +1,11 @@
 # Smart Ride System (Advanced Database Management)
 
-## 📌 Project Overview
+##  Project Overview
 This project implements a comprehensive **Smart Ride System** designed to manage users, drivers, vehicle fleets, and trip transactions efficiently. The system bridges the gap between relational structures and non-relational frameworks, incorporating advanced database principles such as transactional integrity, concurrency control, query optimization, and OLAP data warehousing.
 
 ---
 
-## 🛠️ Key Features & Technical Architecture
+##  Key Features & Technical Architecture
 
 ### 1. Database Design & Normalization
 * **EERD Design:** Captures complex, multi-layered relationships such as `User-Trip` (One-to-Many), `Driver-Vehicle` (One-to-Many/One-to-One), and `Trip-Payment`.
@@ -35,18 +35,18 @@ Mapped the `Users` entity into a flexible, schema-less **MongoDB Collection** to
 
 ---
 
-## 🧰 Technologies & Tools Used
+##  Technologies & Tools Used
 * **RDBMS:** Microsoft SQL Server (T-SQL)
 * **NoSQL:** MongoDB
 * **Concepts:** 3NF Normalization, Transaction Management, Star Schema (OLAP), Index Tuning, Window Functions.
 
 ---
 
-## 👥 Project Team
+##  Project Team
 Developed by a team of 5 students for the *Advanced Database Systems* Course:
 * **Habiba Hamdy Ali** (Database Design, Normalization & SQL Server Implementation)
-* **Mostafa EL-Hosseny Mostafa**
-* **Habiba Samy Mohammed** (Core Logic, Stored Procedures, Transactions & Recovery)
+* **Mostafa EL-Hosseny Mostafa**(queries,stored procedures)
+* **Habiba Samy Mohammed** (Core Logic, Transactions & Recovery)
 * **Basem Tarek** (Query Optimization & MongoDB Implementation)
 * **Habiba Yahia** (Data Warehouse Design & ETL Process)
 *
